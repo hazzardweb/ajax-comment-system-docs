@@ -2,15 +2,15 @@
 
 Ajax Comment System uses the following assets and libraries:
 
-## Front-end
+### Front-end
 - [jQuery](http://jquery.com)
 - [Bootstrap](http://getbootstrap.com)
-- [Highlight.js](https://highlightjs.org)
+- [Prism ](http://prismjs.com)
 - [JS Templating](http://ejohn.org/blog/javascript-micro-templating)
 - [jQuery Timeago](http://timeago.yarp.com)
 - [Autosize](http://www.jacklmoore.com/autosize)
 
-## Back-end
+### Back-end
 - [Composer](https://getcomposer.org)
 - [Guzzle 5.3](https://github.com/guzzle/guzzle)
 - [jBBCode](https://github.com/jbowens/jBBCode)
