@@ -8,8 +8,8 @@
 
 - Extract and copy the files from the archive you have downloaded from CodeCanyon to your server or local server.
 - Create a database then edit `config/database.php` to set the database connection details.
-- In your browser navigate to `install.php` to install the database tables and create a default admin user. <br> This will install the following tables: `comments`, `comment_votes`, `options` and `users`.
-- The default user is created with these credentials: __admin__ / __admin__.
+- In your browser go to `install.php` to install the database tables and create a default admin user. <br> This will install the following tables: `comments`, `comment_votes`, `options` and `users`. (If you want to run the installer again an override the tables, go to `install.php?force`).
+- The default user is created with these credentials: __admin__ / __admin__ and you can access the admin at `/admin`.
 
 > __Warning__: After installation make sure you delete the `install.php` file!.
 

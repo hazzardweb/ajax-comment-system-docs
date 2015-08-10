@@ -1,4 +1,4 @@
-# Quickstart
+# Usage
 
 To use Ajax Comment System in your website follow these simple steps:
 

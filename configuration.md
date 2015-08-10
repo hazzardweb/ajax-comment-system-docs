@@ -4,6 +4,7 @@
     + [Encryption Key](#encryption-key)
     + [Mail](#mail)
     + [Smilies](#smilies)
+    + [BBCode](#bbcode)
 - [Admin Settings](#admin-settings)
 
 ## Basic Configuration
@@ -53,6 +54,28 @@ To use the Mandrill driver, first set the `driver` option in your `config/mail.p
 ],
 ```
 
+### Smilies
+
+To use the smilies you need some smiley images, because the script __does not__ include any. I recommend [these](http://graphicriver.net/item/matte-motes-emoticon-set/33923), but any will do.
+
+First copy your smiley images to `assets/img/smilies`, then edit `config/smilies.php` and set the `path` to the full url (eg: http://localhost/ajax-comment-system/assets/img/smilies), this way will always point to the correct folder. <br>
+Next you should uncomment the smiley images mapping or add your mapping to your smilies images.
+
+Finaly, in `config/general.php` set `'smilies' => true,` (or the equivalent for the admin settings).
+
+### BBCode
+
+Ajax Comment System includes the default bbcode tags like `[b][/b]`, `[i][/i]`, `[u][/u]`, `[url][/url]`, `[img][/img]`, `[color][/color]` and a few custom `[code=language][/code]` (see [language](http://prismjs.com/#languages-list)) , `[quote][/quote]` and `[youtube]video-id[/youtube]`.
+
+Because it uses the [jBBCode](http://jbbcode.com) package you can add any other tags you want. <br>
+You can add the tags in `comments\src\Formatting\BBCodeDefinitionSet.php`, or/and if you need the parser instance (`JBBCode\Parser`) you can access like this:
+
+```php
+$parser = \Comments::getInstance()['bbcode']; // instance of JBBCode\Parser
+```
+
+Please refer to the [JBBCode documentation](http://jbbcode.com) for more.
+
 ## Admin Settings
 
 To enable the settings from the admin panel, edit `comments/start.php` and uncomment this line:
@@ -60,6 +83,8 @@ To enable the settings from the admin panel, edit `comments/start.php` and uncom
 ```php
 // $app->registerOptions();
 ```
+
+>Note: If you ever mess up something with the settings you can reset by going to `admin/options-reset.php`.
 
 <script>
     function generateKey() {

@@ -6,11 +6,12 @@
     - [Installation](installation.md)
     - [Configuration](configuration.md)
 
-- Usage
-	- [Quickstart](quick.md)
+- The Basics
+	- [Usage](usage.md)
     - [Integration](integration.md)
     - [Authentication](authentication.md)
 
 -
+    - [FAQ](faq.md)
     - [Debugging](debugging.md)
     - [Credits](credits.md)
