@@ -4,7 +4,7 @@
 
 ## Upgrading To 2.0 From 1.2
 
-Because of the major changes from the previous version, the old database tables are __not compatible__ with the new ones.
+Because of the major changes from the previous version, you can't just update the script. Also the old database tables are __not compatible__ with the new ones.
 
 Howerver, you can use the <a href="https://github.com/hazzardweb/acs-upgrade">Upgrade Tool</a> and transfer your comments from the old table to the new one. Make sure you backup everything and test it locally first.
 
