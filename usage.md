@@ -31,6 +31,14 @@ The `bundle.js` files is meant to be used in production, when testing or if you 
 <script src="assets/js/comments.js"></script>
 ```
 
+__Start the Session__
+
+If your website doesn't already have the session started, add this on the first line in your file (before outputting anything):
+
+```php
+<?php session_start(); ?>
+```
+
 __Include the Init File__
 ```php
 <?php require __DIR__.'/comments/start.php'; ?>
