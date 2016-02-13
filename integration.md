@@ -1,7 +1,7 @@
 # Integration
 
 - [Users](#users)
-- [Authentication](#uthentication)
+- [Authentication](#authentication)
 - [Admin Panel](#admin-panel)
 
 Ajax Comment System provides a set of hooks that allow you can use to integrate it with your existing users and authentication system.
