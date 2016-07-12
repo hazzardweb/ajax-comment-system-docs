@@ -12,6 +12,7 @@ You can view the all the changes on [git.hazzardweb.com](http://git.hazzardweb.c
 
 - Replace `comments/src/Auth/Guard.php`
 - Replace `comments/events.php` @ `admin.login` (only if you use the default authentication system)
+- Replace `comments/src/Comments/Comment.php`
 
 ## Upgrading To 2.0 From 1.2
 

@@ -5,6 +5,7 @@
 ### Fixed
 
 - Fixed admin login
+- Fixed comment vote
 
 ## v2.0.4 - 2016-03-04
 
