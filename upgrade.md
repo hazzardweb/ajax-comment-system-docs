@@ -1,6 +1,17 @@
 # Upgrade Guide
 
+- [Git Changes](#git-changes)
+- [Upgrading To 2.0.5 From 2.0.4](#upgrading-to-205-from-204)
 - [Upgrading To 2.0 From 1.2](#upgrading-to-20-from-12)
+
+# Git Changes 
+
+You can view the all the changes on [git.hazzardweb.com](http://git.hazzardweb.com) by logging in with your Envato account.
+
+## Upgrading To 2.0.5 From 2.0.4
+
+- Replace `comments/src/Auth/Guard.php`
+- Replace `comments/events.php` @ `admin.login` (only if you use the default authentication system)
 
 ## Upgrading To 2.0 From 1.2
 
