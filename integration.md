@@ -37,7 +37,7 @@ If you don't want to have users set the `user_model` option to `null` in `config
 
 If you wish to replace the built in [Authentication](authentication.md) driver or completely disable authentication edit `comments/events.php` where you will have to configure the __`auth.user`__ event.
 
-The event is used to determine if the user is authenticated and access the user. It has one argument, `$attribute`, that can be `id`, `name`, `email`, `url` and you will have to return the corresponding value. If the argument is null then you will have to return whether the user is logged in or not.
+The event is used to determine if the user is authenticated and access the user. It has one argument, `$attribute`, that can be `id`, `name`, `email`, `avatar`, `url` and you will have to return the corresponding value. If the argument is null then you will have to return whether the user is logged in or not.
 
 ```php
 /**
